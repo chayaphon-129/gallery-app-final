@@ -83,7 +83,7 @@ const UnsplashGallery = ({ onLogout }) => {
           placeholder="Search photos..."
           className="search-input"
         />
-        <button type="submit" className="search-button">Search</button>
+        <button type="submit" className="search-button">Theme</button>
       </form>
       <Masonry
         breakpointCols={breakpointColumnsObj}

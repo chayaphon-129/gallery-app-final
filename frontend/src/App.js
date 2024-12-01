@@ -30,7 +30,7 @@ function App() {
         <h1>UNSPLASH PHOTOS GALLERY</h1>
       </header>
       <main className="App-main">
-        {!isAuthenticated ? (
+        {false ? (
           isRegistering ? (
             <Register onRegister={handleRegister} onToggleLogin={toggleRegister} />
           ) : (
