@@ -1,0 +1,138 @@
+.gallery-container {
+  max-width: 1800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #bababd; /* สีน้ำเงินเข้ม */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.search-form {
+  margin-bottom: 20px;
+}
+
+.search-input {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #444;
+  color: #fff;
+}
+
+.search-button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  border: none;
+  background-color: #0073e6;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.search-button:hover {
+  background-color: #005bb5;
+}
+
+.photos-grid {
+  display: flex; 
+  margin-left: -30px; /* gutter size offset */ 
+  width: auto;
+}
+
+.photo-item {
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.photos-grid_column { 
+  padding-left: 30px; /* gutter size */ 
+  background-clip: padding-box; 
+}
+
+.photo {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+.photo:hover {
+  transform: scale(1.05);
+}
+
+.pagination {
+  margin-top: 20px;
+}
+
+.page-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #0073e6;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 0 5px;
+}
+
+.page-button:hover {
+  background-color: #005bb5;
+}
+
+.page-button:disabled {
+  background-color: #555;
+  cursor: not-allowed;
+}
+
+.photo-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 80%;
+  max-height: 80%;
+  background: #2c2c2c;
+  border-radius: 10px;
+  padding: 20px;
+  outline: none;
+}
+
+.photo-modal-overlay {
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal-photo {
+  max-width: 100%;
+  max-height: 80vh;
+  border-radius: 10px;
+}
+
+.close-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #0073e6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.close-button:hover {
+  background: #005bb5;
+}

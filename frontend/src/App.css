@@ -1,0 +1,38 @@
+.App {
+  background-color: #263238; /* สีน้ำเงินเข้ม */
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-header {
+  text-align: center;
+  padding: 20px;
+}
+
+.App-header h1 {
+  color: white;
+}
+
+.App-main {
+  background-color: #263238;
+  width: 100%;
+  max-width: 1800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.auth-toggle-button {
+  background: whitesmoke;
+  border: none;
+  color: #0f3460; /* สีน้ำเงินเข้ม */
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.auth-toggle-button:hover {
+  color: #0d2c54; /* สีน้ำเงินเข้ม */
+}
